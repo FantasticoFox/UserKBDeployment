@@ -112,6 +112,18 @@ Note that it will first install MariaDB, and then MediaWiki, it will take a whil
 ```
 ./up.sh
 ```
+### Access MediaWiki via Browser
+
+Note that the Mediawiki services will be available on the local machine on port 5151.
+
+```
+127.0.0.1:5151
+```
+
+### Login MediaWiki / Start
+Note that you need to create a new user to be able to edit the wiki-page.
+For this scroll down on the login page and register a new user.
+
 
 ## Exception Handling
 Due to the massive size (about 2Gb +) of softwrae downloads, the download procedure might hang, if it waits for too long, just use 
